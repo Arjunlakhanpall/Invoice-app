@@ -38,7 +38,6 @@ A web application for managing and sending invoices with a user-friendly interfa
   - Date of creation
   - Status
   - Background color indicating whether the invoice is past due or not (green = on time, red = overdue).
-  - ![Home Page](https://github.com/user-attachments/assets/a8972299-5e5d-4249-b0c8-3bbc3de29628)
 
 - **View Detailed Invoice**: Each card has a "View" button that takes you to a page with the full details of the invoice.
   - ![Invoice Detail](https://github.com/user-attachments/assets/349fd5d4-60fa-4a36-9760-17b864ac952f)
