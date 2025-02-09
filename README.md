@@ -1,32 +1,59 @@
 # Invoice Web App
 
-Technologies and tools used:
-1. ReactJS 
-2. NodeJS (with Express)
-3. MongoDB
-4. CSS and Material-UI for design.
+A web application for managing and sending invoices with a user-friendly interface.
 
-Steps to run: 
-1. Download ZIP file to your local system and extract it.
-2. cd into the main folder and run `npm i` to install all dependencies.
-3. cd into the client folder and run `npm i` again.
-4. Back to the main folder and run `npm run dev` to run the development server.
-5. Open localhost:3000 if that does not happen automatically.
+## Technologies and Tools Used:
+- **ReactJS**: Frontend framework
+- **NodeJS** (with Express): Backend framework
+- **MongoDB**: Database for storing invoice data
+- **CSS** & **Material-UI**: Styling and UI components
 
-Features of the app:
-1. On the home page all the invoice summaries can be viewed (see image 1). It includes the name, date of creation, status and the background(green/red) of the card indicates whether it's past the due date or not.
-2. On each card the first button is the view button which takes you to another page where you can view the invoice in detail (see image 2)
-3. The second button sends an email to the recepient informing the total amount. 
-4. Finally there's a 'Create' button using which you can create an invoice using the form in image 3.
+![Create Invoice](https://github.com/user-attachments/assets/16f022ec-3e34-4096-b5a8-6884f224d833)
+
+## Steps to Run the Application
+
+1. **Download the ZIP file** to your local system and extract it.
+2. **Install dependencies**:
+   - Open the terminal, `cd` into the main folder and run:
+     ```bash
+     npm i
+     ```
+   - Then, navigate to the `client` folder and run:
+     ```bash
+     npm i
+     ```
+3. **Start the development server**:
+   - Go back to the main folder and run:
+     ```bash
+     npm run dev
+     ```
+4. Open your browser and visit **localhost:3000** (if it doesn't happen automatically).
+
+![Home Page](https://github.com/user-attachments/assets/a8972299-5e5d-4249-b0c8-3bbc3de29628)
+
+## Features of the App
+
+- **Invoice Summaries**: On the home page, you can view all invoice summaries, including:
+  - Name
+  - Date of creation
+  - Status
+  - Background color indicating whether the invoice is past due or not (green = on time, red = overdue).
+  - ![Home Page](https://github.com/user-attachments/assets/a8972299-5e5d-4249-b0c8-3bbc3de29628)
+
+- **View Detailed Invoice**: Each card has a "View" button that takes you to a page with the full details of the invoice.
+  - ![Invoice Detail](https://github.com/user-attachments/assets/349fd5d4-60fa-4a36-9760-17b864ac952f)
+
+- **Send Invoice Email**: A second button allows you to send an email to the recipient, informing them of the total amount of the invoice.
+
+- **Create Invoice**: There's a 'Create' button that lets you create a new invoice using a form.
+
+## License
+
+Include your license information here, for example:
+
+MIT License Copyright (c)
 
 
-Demo images of the Web App: 
+## Contact
 
-image 1
-<img src='./images/home.jpeg' alt='img'>
-
-image 2
-<img src='./images/invoice.jpeg' alt='img'>
-
-image 3
-<img src='./images/create.jpeg' alt='img'>
+For any questions or feedback, feel free to reach out to me at [lakhanpxl.arjun@gmail.com].
