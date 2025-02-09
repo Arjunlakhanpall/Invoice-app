@@ -26,16 +26,13 @@ To run the app locally, follow these steps:
    ```bash
    git clone https://github.com/username/invoice-app.git
 2.Navigate to the project directory:
-
- cd invoice-app
+'''cd invoice-app
  
 3. Install dependencies
-
-  npm install
+'''npm install
   
 4. Run the app:
-
- npm start
+'''npm start
 Usage
 Once the app is running, you can access it by navigating to http://localhost:3000 in your browser. From there, you can create invoices, manage clients and products, and track payments.
 
